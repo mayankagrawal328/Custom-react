@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#clock{
+    padding-top: 0.7em;
+    width: 8em;
+    height: 2em; 
+    margin-top:35vh;
+    background-color: aqua;
+    font-size: 68px;
+    font-weight: bold;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+nav{
+    height:8vh;
+    background-color: aqua;
+}
+
+nav button{
+    float: right;
+    padding: 2.5vh 1%;
+    background-color: aqua;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+nav button:hover{
+    float: right;
+    padding: 2.5vh 1%;
+    background-color: antiquewhite;
+    border: none;
+}
+
+div p{
+    font-size: large;
+    margin-top: 20vh;
+    margin: 55px;
+    padding: 5vh 5%;
+    border-radius: 6%;
+    color: white;
+    background-color: aqua;
+}
+
+
+#contact{
+    margin: 40vh;
+    font-weight: bold;
+}
+
+img{    
+    width: 20vh;
+}
+
+#main {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    margin-left: 40vw;
+  }
+  
+  #main div {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+  }
+  @media screen and (max-width: 495px) {
+
+    nav{
+        height:8vh;
+        width: 130vw;
+        background-color: aqua;
+    }
+    div p{
+        font-size: large;
+        border-radius: 6%;
+        margin: 10px;
+        padding: 0vh 0%;
+        color: white;
+        background-color: aqua;
+    }
+    #clock{
+        width: 10em;
+        height: 2em; 
+        font-size: 38px;
+    }
+    #contact{
+        margin: 10vh;
+        font-weight: bold;
+    }
+  }
